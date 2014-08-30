@@ -88,7 +88,7 @@ package Bio::SeqFeature::Annotated;
 BEGIN {
   $Bio::SeqFeature::Annotated::AUTHORITY = 'cpan:BIOPERLML';
 }
-$Bio::SeqFeature::Annotated::VERSION = '1.6.0';
+$Bio::SeqFeature::Annotated::VERSION = '1.6.902';
 use strict;
 
 use Bio::Annotation::Collection;

@@ -117,7 +117,7 @@ package Bio::FeatureIO::ptt;
 BEGIN {
   $Bio::FeatureIO::ptt::AUTHORITY = 'cpan:BIOPERLML';
 }
-$Bio::FeatureIO::ptt::VERSION = '1.6.0';
+$Bio::FeatureIO::ptt::VERSION = '1.6.902';
 use strict;
 use base qw(Bio::FeatureIO);
 use Bio::SeqFeature::Generic;
