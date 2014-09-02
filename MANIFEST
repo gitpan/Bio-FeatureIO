@@ -7,16 +7,6 @@ META.yml
 Makefile.PL
 README.md
 dist.ini
-inc/Test/Builder.pm
-inc/Test/Builder/IO/Scalar.pm
-inc/Test/Builder/Module.pm
-inc/Test/Builder/Tester.pm
-inc/Test/Builder/Tester/Color.pm
-inc/Test/Exception.pm
-inc/Test/More.pm
-inc/Test/Simple.pm
-inc/Test/Tutorial.pod
-inc/Test/Warn.pm
 lib/Bio/FeatureIO.pm
 lib/Bio/FeatureIO/bed.pm
 lib/Bio/FeatureIO/gff.pm

@@ -74,7 +74,7 @@ package Bio::FeatureIO::gtf;
 BEGIN {
   $Bio::FeatureIO::gtf::AUTHORITY = 'cpan:BIOPERLML';
 }
-$Bio::FeatureIO::gtf::VERSION = '1.6.902';
+$Bio::FeatureIO::gtf::VERSION = '1.6.903';
 use base qw(Bio::FeatureIO::gff);
 use strict;
 

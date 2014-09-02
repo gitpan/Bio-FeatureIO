@@ -42,6 +42,7 @@ my %WriteMakefileArgs = (
     "Data::Dumper" => 0,
     "Scalar::Util" => 0,
     "Symbol" => 0,
+    "Tree::DAG_Node" => 0,
     "URI::Escape" => 0,
     "XML::DOM" => 0,
     "XML::DOM::XPath" => 0,
@@ -55,10 +56,9 @@ my %WriteMakefileArgs = (
     "IO::Handle" => 0,
     "IPC::Open3" => 0,
     "Test::More" => 0,
-    "lib" => 0,
     "warnings" => 0
   },
-  "VERSION" => "1.6.902",
+  "VERSION" => "1.6.903",
   "test" => {
     "TESTS" => "t/*.t t/SeqFeature/*.t"
   }
@@ -93,12 +93,12 @@ my %FallbackPrereqs = (
   "Scalar::Util" => 0,
   "Symbol" => 0,
   "Test::More" => 0,
+  "Tree::DAG_Node" => 0,
   "URI::Escape" => 0,
   "XML::DOM" => 0,
   "XML::DOM::XPath" => 0,
   "base" => 0,
   "constant" => 0,
-  "lib" => 0,
   "strict" => 0,
   "warnings" => 0
 );

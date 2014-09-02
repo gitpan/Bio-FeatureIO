@@ -62,7 +62,7 @@ package Bio::FeatureIO::interpro;
 BEGIN {
   $Bio::FeatureIO::interpro::AUTHORITY = 'cpan:BIOPERLML';
 }
-$Bio::FeatureIO::interpro::VERSION = '1.6.902';
+$Bio::FeatureIO::interpro::VERSION = '1.6.903';
 use strict;
 use base qw(Bio::FeatureIO);
 use Bio::SeqFeature::Annotated;
