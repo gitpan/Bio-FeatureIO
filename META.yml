@@ -50,10 +50,10 @@ requires:
   constant: '0'
   strict: '0'
 resources:
-  bugtracker: https://github.com/bioperl/%%7Bdist%7D
+  bugtracker: http://github.com/bioperl/Bio-FeatureIO/issues
   homepage: https://metacpan.org/release/Bio-FeatureIO
   repository: git://github.com/bioperl/bio-featureio.git
-version: 1.6.903
+version: 1.6.904
 x_Dist_Zilla:
   perl:
     version: '5.018001'
@@ -212,7 +212,7 @@ x_Dist_Zilla:
         Dist::Zilla::Plugin::Git::Tag:
           branch: ~
           signed: 0
-          tag: Bio-FeatureIO-v1.6.903
+          tag: Bio-FeatureIO-v1.6.904
           tag_format: '%N-v%v'
           tag_message: '%N-v%v'
           time_zone: local
@@ -220,6 +220,10 @@ x_Dist_Zilla:
           repo_root: .
       name: '@BioPerl/Git::Tag'
       version: '2.023'
+    -
+      class: Dist::Zilla::Plugin::MetaResources
+      name: MetaResources
+      version: '5.019'
     -
       class: Dist::Zilla::Plugin::Prereqs
       config:

@@ -81,7 +81,7 @@ package Bio::FeatureIO::vecscreen_simple;
 BEGIN {
   $Bio::FeatureIO::vecscreen_simple::AUTHORITY = 'cpan:BIOPERLML';
 }
-$Bio::FeatureIO::vecscreen_simple::VERSION = '1.6.903';
+$Bio::FeatureIO::vecscreen_simple::VERSION = '1.6.904';
 use strict;
 use base qw(Bio::FeatureIO);
 use Bio::SeqFeature::Generic;
