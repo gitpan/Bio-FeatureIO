@@ -267,7 +267,7 @@ package Bio::FeatureIO;
 BEGIN {
   $Bio::FeatureIO::AUTHORITY = 'cpan:BIOPERLML';
 }
-$Bio::FeatureIO::VERSION = '1.6.904';
+$Bio::FeatureIO::VERSION = '1.6.905';
 use strict;
 
 use Symbol;

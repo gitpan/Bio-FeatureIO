@@ -1,3 +1,11 @@
+
+BEGIN {
+  unless ($ENV{RELEASE_TESTING}) {
+    require Test::More;
+    Test::More::plan(skip_all => 'these tests are for release candidate testing');
+  }
+}
+
 # -*-Perl-*- Test Harness script for Bioperl
 # $Id$
 
@@ -8,7 +16,6 @@ BEGIN {
     
     test_begin( 
 	       -requires_modules => [qw(URI::Escape Graph::Directed)],
-	       -requires_networking => 1
 	);
 	
 	use_ok('Bio::SeqFeature::Generic');

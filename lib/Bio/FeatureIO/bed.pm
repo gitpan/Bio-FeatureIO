@@ -76,7 +76,7 @@ package Bio::FeatureIO::bed;
 BEGIN {
   $Bio::FeatureIO::bed::AUTHORITY = 'cpan:BIOPERLML';
 }
-$Bio::FeatureIO::bed::VERSION = '1.6.904';
+$Bio::FeatureIO::bed::VERSION = '1.6.905';
 use strict;
 use base qw(Bio::FeatureIO);
 use Bio::SeqFeature::Annotated;

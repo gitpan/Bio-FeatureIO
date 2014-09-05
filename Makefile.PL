@@ -58,9 +58,9 @@ my %WriteMakefileArgs = (
     "Test::More" => 0,
     "warnings" => 0
   },
-  "VERSION" => "1.6.904",
+  "VERSION" => "1.6.905",
   "test" => {
-    "TESTS" => "t/*.t t/SeqFeature/*.t"
+    "TESTS" => "t/*.t t/release-SeqFeature/*.t"
   }
 );
 

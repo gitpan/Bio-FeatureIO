@@ -80,7 +80,7 @@ package Bio::FeatureIO::gff;
 BEGIN {
   $Bio::FeatureIO::gff::AUTHORITY = 'cpan:BIOPERLML';
 }
-$Bio::FeatureIO::gff::VERSION = '1.6.904';
+$Bio::FeatureIO::gff::VERSION = '1.6.905';
 use strict;
 
 #these are alphabetical, keep them that way.

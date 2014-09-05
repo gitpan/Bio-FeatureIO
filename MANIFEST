@@ -18,7 +18,6 @@ lib/Bio/SeqFeature/Annotated.pm
 t/00-compile.t
 t/FeatureIO.t
 t/FeatureIO.x
-t/SeqFeature/Annotated.t
 t/bed.t
 t/data/1.bed
 t/data/directives.gff3
@@ -31,6 +30,7 @@ t/data/test.ptt
 t/data/vecscreen_simple.test_output
 t/gff.t
 t/ptt.t
+t/release-SeqFeature/Annotated.t
 t/release-mojibake.t
 t/release-pod-coverage.t
 t/release-pod-syntax.t
